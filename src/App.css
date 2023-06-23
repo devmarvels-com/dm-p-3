@@ -1,0 +1,255 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.App {
+  margin: auto auto;
+  background-color: #dafdba;
+  list-style-type: none;
+  padding: 15px;
+  border-radius: 3px;
+  max-width: 600px;
+  color: #13678a;
+  font-size: 1.2em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+/* Form */
+
+.field {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5em;
+  flex-wrap: wrap;
+}
+
+.field input,
+.field label {
+  order: 1;
+}
+
+.field span,
+.field select {
+  order: 2;
+}
+
+.field > span,
+.field > div span {
+  flex: 0 0 100%;
+}
+
+.field.has-error span,
+.field > div span {
+  color: red;
+}
+
+.field.has-error input,
+.field.has-error select {
+  border: 1px solid red;
+}
+
+/* Field Array */
+.field > div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.field-arr {
+  padding-top: 0;
+}
+
+.field > div {
+  width: 100%;
+}
+
+.field > div > section {
+  flex-grow: 2;
+  flex-basis: 0;
+}
+
+.field > div > button {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.field > label {
+  padding: 0.5em 1em 0.5em 0;
+  flex: 1;
+}
+
+.field > input {
+  flex: 2;
+}
+
+.field > input,
+.field > button {
+  padding: 0.5em;
+}
+
+.field input[type="radio"] {
+  display: inline-block;
+  margin-right: 2em;
+}
+
+.field input[type="submit"] {
+  font-size: 1.3em;
+}
+
+.field input,
+.field input[type="text"],
+.field input[type="email"],
+.field input[type="number"],
+.field input[type="date"],
+.field input[type="tel"],
+.field textarea,
+.field button,
+.submit-btn input,
+form button,
+.field select {
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #c6c6c6;
+  width: 100%;
+  margin-bottom: 18px;
+  color: #888;
+  font-family: "Lato", "sans-serif";
+  font-size: 16px;
+  font-weight: 300;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.field input[type="text"]:focus,
+.field input[type="text"]:hover,
+.field input[type="email"]:focus,
+.field input[type="email"]:hover,
+.field input[type="number"]:focus,
+.field input[type="number"]:hover,
+.field input[type="date"]:focus,
+.field input[type="date"]:hover,
+.field input[type="tel"]:focus,
+.field input[type="tel"]:hover,
+.field textarea:focus,
+.field textarea:hover,
+.field button:focus,
+.field button:hover,
+.field select:focus,
+.field select:hover {
+  outline: none;
+  border-color: #9fb1c1;
+}
+
+.submit-btn input,
+.App form button {
+  color: black;
+}
+
+.App form button {
+  width: 20%;
+  float: right;
+}
