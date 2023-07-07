@@ -4,8 +4,8 @@
 
 <br />
 <div align="center">
-  <a style="background-color:white;display:block;height:45px;padding-top:10px;" href="https://devmarvels.com">
-    <img src="https://devmarvels.com/wp-content/uploads/2023/05/devmarvels-logo-244x36.png" alt="Logo">
+  <a style="display:block;height:45px;padding-top:10px;" href="https://devmarvels.com">
+    <img src="https://devmarvels.com/wp-content/uploads/2023/07/devmarvels-logo-white-e1688703543774.png" alt="Logo">
   </a>
 
   <h2 align="center">Using useFieldArray with React Hook Form and TypeScript</h2>
